@@ -19,3 +19,4 @@ The script changes directory:
 ```
 That should download many source packages -- total size estimated between 4GB and 5GB.
 
+./openembedded-core/bitbake/lib/bb/tests/fetch.py.orig

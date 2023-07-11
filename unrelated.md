@@ -30,3 +30,6 @@ pkg mirror hash:  4ada13
 
 ## for stm
 https://wiki.st.com/stm32mpu/wiki/STM32MP1_Distribution_Package
+
+## for stm cortex-m
+https://wiki.st.com/stm32mpu/wiki/STM32CubeMP1_Package#STM32CubeMP1_Package_overview

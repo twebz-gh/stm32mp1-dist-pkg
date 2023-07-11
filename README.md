@@ -23,3 +23,5 @@ That should download many source packages -- total size estimated between 4GB an
 
 $ mv sysprof-3.44.0.tar.xz.tmp sysprof-3.44.0.tar.xz    
 $ cp sysstat-12.6.2.tar.xz.done sysprof-3.44.0.tar.xz.done
+
+$ PACKAGE_EXCLUDE="sysprof" bitbake st-image-weston

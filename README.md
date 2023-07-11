@@ -18,10 +18,3 @@ The script changes directory:
 /OpenSTLinux/build-openstlinuxweston-stm32mp15-disco $ bitbake st-image-weston
 ```
 That should download many source packages -- total size estimated between 4GB and 5GB.
-
-./openembedded-core/bitbake/lib/bb/tests/fetch.py.orig
-
-$ mv sysprof-3.44.0.tar.xz.tmp sysprof-3.44.0.tar.xz    
-$ cp sysstat-12.6.2.tar.xz.done sysprof-3.44.0.tar.xz.done
-
-$ PACKAGE_EXCLUDE="sysprof" bitbake st-image-weston

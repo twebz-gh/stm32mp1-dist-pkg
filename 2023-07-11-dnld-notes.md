@@ -56,3 +56,9 @@ WARNING: To build your own uninative loader, please bitbake uninative-tarball an
 
 
 WARNING: linux-stm32mp-6.1.28-stm32mp-r1-r0 do_package_qa: QA Issue: File /usr/src/debug/linux-stm32mp/6.1.28-stm32mp-r1-r0/lib/oid_registry_data.c in package linux-stm32mp-src contains reference to TMPDIR
+
+
+http://downloads.yoctoproject.org/mirror/sources/
+
+
+

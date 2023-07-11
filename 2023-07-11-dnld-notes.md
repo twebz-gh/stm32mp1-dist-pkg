@@ -61,4 +61,15 @@ WARNING: linux-stm32mp-6.1.28-stm32mp-r1-r0 do_package_qa: QA Issue: File /usr/s
 http://downloads.yoctoproject.org/mirror/sources/
 
 
+./openembedded-core/bitbake/lib/bb/tests/fetch.py.orig
+
+$ mv sysprof-3.44.0.tar.xz.tmp sysprof-3.44.0.tar.xz    
+$ cp sysstat-12.6.2.tar.xz.done sysprof-3.44.0.tar.xz.done
+
+$ PACKAGE_EXCLUDE="sysprof" bitbake st-image-weston
+
+disc serial numbers
+- 2023-07-11-openstlinux-disc1
+- 2023-07-11-openstlinux-disc2
+
 
